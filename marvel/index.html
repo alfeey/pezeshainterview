@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Characters Collection</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Marvel Characters</h1>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search characters...">
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="character-grid" id="characterGrid">
+      <!-- characters  -->
+    </div>
+    <div class="loading" id="loadingIndicator">Loading more characters...</div>
+    <div class="error-message" id="errorMessage" style="display: none;"></div>
+  </main>
+  
+  <footer>
+    <p>Data provided by Marvel. © 2025 Marvel</p>
+    <p>
+      <a href="https://marvel.com" target="_blank" rel="noopener">
+        Visit Marvel.com
+      </a>
+    </p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
